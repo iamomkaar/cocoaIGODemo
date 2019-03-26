@@ -15,7 +15,9 @@ class Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        let testview = UIImageView()
+        testview.borderMe(borderColor: UIColor.black, borderWidth: 30.0)
+        XCTAssert(testview.layer.borderWidth == 30.0)
     }
     
     func testPerformanceExample() {

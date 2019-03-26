@@ -7,17 +7,19 @@
 //
 
 import UIKit
+import cocoaIGODemo
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var Image:UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Image.borderMe(borderColor: UIColor.black, borderWidth: 24.0)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }

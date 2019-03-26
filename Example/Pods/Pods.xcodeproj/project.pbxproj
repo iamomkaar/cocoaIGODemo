@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08A5F5ABF5CAB26B4E4A3A5E868B6EBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		18F91320224A37DE00D0F05A /* cocoaIGOMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9131F224A37DE00D0F05A /* cocoaIGOMe.swift */; };
 		2F7464E017EA59E6F0FF25DA597B4D30 /* Pods-cocoaIGODemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F63BDB524655DF0725FA565AB9B12844 /* Pods-cocoaIGODemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EBE04D30C167A972841A67D6D75DE7A /* Pods-cocoaIGODemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8F64B7C511D05B9E053A6EB5DAF401 /* Pods-cocoaIGODemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8317CF9792A222BB8C62BC9FD10E0D33 /* Pods-cocoaIGODemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A84042A7DF3758A2AAE7064ED6356CEB /* Pods-cocoaIGODemo_Example-dummy.m */; };
@@ -16,7 +17,6 @@
 		CF9499AE1B6D6191C22C9FA94DC5B0FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		E2D5D4B2898508F27FB6CC8A35B6EDE9 /* cocoaIGODemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E576F366DBDD25E229B88558EB27DA /* cocoaIGODemo-dummy.m */; };
 		E393EF21EAD537C5985BDD855AD75D9E /* cocoaIGODemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9170C715869E72AD0BF17DE9FA32C59 /* cocoaIGODemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC3570AC6C49A84B21704FAD52207452 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791456A22E370648976EB008AACE1040 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,33 +38,33 @@
 
 /* Begin PBXFileReference section */
 		18223511A3C25961CE35DE96BD199169 /* cocoaIGODemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "cocoaIGODemo-Info.plist"; sourceTree = "<group>"; };
+		18F9131F224A37DE00D0F05A /* cocoaIGOMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = cocoaIGOMe.swift; path = cocoaIGODemo/Classes/cocoaIGOMe.swift; sourceTree = "<group>"; };
 		1E8F924641B708C46D6A6E5E56625A2E /* Pods-cocoaIGODemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoaIGODemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		27CA9EDBCF1ACA3894508F6C4385A26F /* Pods-cocoaIGODemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cocoaIGODemo_Example.modulemap"; sourceTree = "<group>"; };
 		2F8F64B7C511D05B9E053A6EB5DAF401 /* Pods-cocoaIGODemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cocoaIGODemo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		337885853E9603DDFA4142DD69EAE6C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		337885853E9603DDFA4142DD69EAE6C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		37C1ED3EA32EFC9B473FD55E2C92FF89 /* Pods-cocoaIGODemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cocoaIGODemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3FE494205735D7F254F1AD65B6B4DF90 /* cocoaIGODemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cocoaIGODemo.xcconfig; sourceTree = "<group>"; };
 		45E576F366DBDD25E229B88558EB27DA /* cocoaIGODemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cocoaIGODemo-dummy.m"; sourceTree = "<group>"; };
 		46F0D30071DDD7F7518BFD61D084A514 /* Pods-cocoaIGODemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoaIGODemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4ABC71C67D3CBD8A243BB7C76C45166F /* Pods-cocoaIGODemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoaIGODemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C287960FA018B322E56B93029A569A6 /* Pods_cocoaIGODemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cocoaIGODemo_Tests.framework; path = "Pods-cocoaIGODemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C287960FA018B322E56B93029A569A6 /* Pods_cocoaIGODemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cocoaIGODemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6206C83545E0BF48D45834E5E500209F /* Pods-cocoaIGODemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cocoaIGODemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		70133C6C23A2C34158C5CF37C465CC9F /* cocoaIGODemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = cocoaIGODemo.modulemap; sourceTree = "<group>"; };
 		77F8D84E365442D58E965F6B88C63245 /* Pods-cocoaIGODemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoaIGODemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		791456A22E370648976EB008AACE1040 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = cocoaIGODemo/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		7BB66B5190ADA3A9D46C0CEDF1CC2039 /* Pods-cocoaIGODemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoaIGODemo_Tests-Info.plist"; sourceTree = "<group>"; };
 		94C44FFDA0CAE719285E0DDE5511CE92 /* Pods-cocoaIGODemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoaIGODemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2965E8486E8C509C5D65DE7B7D70FE5 /* Pods-cocoaIGODemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoaIGODemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5F68ECCE53032C6C019AA8D78594B83 /* Pods-cocoaIGODemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoaIGODemo_Example-Info.plist"; sourceTree = "<group>"; };
 		A84042A7DF3758A2AAE7064ED6356CEB /* Pods-cocoaIGODemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cocoaIGODemo_Example-dummy.m"; sourceTree = "<group>"; };
 		B52F35ACE33C740E42A044D005C8CC57 /* Pods-cocoaIGODemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cocoaIGODemo_Tests.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC44F4504CAD14C279189D4803C149F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DD8B6B41CF3D8C0E2D798DD1510059EA /* Pods_cocoaIGODemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cocoaIGODemo_Example.framework; path = "Pods-cocoaIGODemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E32F372B27E3E13FFC6E3BACDEB709CC /* cocoaIGODemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = cocoaIGODemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC44F4504CAD14C279189D4803C149F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD8B6B41CF3D8C0E2D798DD1510059EA /* Pods_cocoaIGODemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cocoaIGODemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32F372B27E3E13FFC6E3BACDEB709CC /* cocoaIGODemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = cocoaIGODemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E60BB6787E1698F69467141769B711FB /* Pods-cocoaIGODemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cocoaIGODemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E611723A66FEE52B678ABCF3F97C3000 /* cocoaIGODemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = cocoaIGODemo.framework; path = cocoaIGODemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E611723A66FEE52B678ABCF3F97C3000 /* cocoaIGODemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cocoaIGODemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5D327B445FA90BBF56216B142642B7 /* Pods-cocoaIGODemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cocoaIGODemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F63BDB524655DF0725FA565AB9B12844 /* Pods-cocoaIGODemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cocoaIGODemo_Example-umbrella.h"; sourceTree = "<group>"; };
 		F9170C715869E72AD0BF17DE9FA32C59 /* cocoaIGODemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cocoaIGODemo-umbrella.h"; sourceTree = "<group>"; };
@@ -180,9 +180,9 @@
 		BBDD7381CDBF7817CEEEF7ABD344B79D /* cocoaIGODemo */ = {
 			isa = PBXGroup;
 			children = (
-				791456A22E370648976EB008AACE1040 /* ReplaceMe.swift */,
 				696F607C651357932E23D16A746A57A3 /* Pod */,
 				C49DBC7708170A099866BBFD5D35420D /* Support Files */,
+				18F9131F224A37DE00D0F05A /* cocoaIGOMe.swift */,
 			);
 			name = cocoaIGODemo;
 			path = ../..;
@@ -314,14 +314,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					19653CEB89B2F9F4A6FC734430DEDA11 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 2195A100CA55A200E3AF1D7A78387A85 /* Products */;
@@ -381,7 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2D5D4B2898508F27FB6CC8A35B6EDE9 /* cocoaIGODemo-dummy.m in Sources */,
-				FC3570AC6C49A84B21704FAD52207452 /* ReplaceMe.swift in Sources */,
+				18F91320224A37DE00D0F05A /* cocoaIGOMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FE494205735D7F254F1AD65B6B4DF90 /* cocoaIGODemo.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -637,6 +644,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FE494205735D7F254F1AD65B6B4DF90 /* cocoaIGODemo.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -657,6 +665,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -717,8 +726,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
