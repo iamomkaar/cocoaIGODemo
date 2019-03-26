@@ -1,0 +1,6 @@
+framework module cocoaIGODemo {
+  umbrella header "cocoaIGODemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/omkar b/cocoaIGODemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'omkar b' => 'omkar@flappjacks.com' }
-  s.source           = { :git => 'https://github.com/omkar b/cocoaIGODemo.git', :tag => s.version.to_s }
+   s.author           = { 'iamomkaar' => 'iamomkaar@gmail.com' }
+    s.source           = { :git => 'https://github.com/iamomkaar/cocoaIGODemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
