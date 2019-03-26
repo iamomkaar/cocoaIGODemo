@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BB16D731E1D2F75D6BD8738 /* cocoaIGODemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = cocoaIGODemo.podspec; path = ../cocoaIGODemo.podspec; sourceTree = "<group>"; };
+		0BB16D731E1D2F75D6BD8738 /* cocoaIGODemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = cocoaIGODemo.podspec; path = ../cocoaIGODemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4E305B42E97A022F25CA5894 /* Pods_cocoaIGODemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cocoaIGODemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F27CAAE301AC2206F2AA89F /* Pods_cocoaIGODemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cocoaIGODemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* cocoaIGODemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocoaIGODemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };

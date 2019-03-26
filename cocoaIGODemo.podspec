@@ -9,6 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'cocoaIGODemo'
   s.version          = '0.1.0'
+  s.swift_version    = '4.0'
   s.summary          = 'This is first demo project'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +22,7 @@ Pod::Spec.new do |s|
 'This is first demo project to create the pods. will make sure to work well.'.
                        DESC
 
-  s.homepage         = 'https://github.com/omkar b/cocoaIGODemo'
+  s.homepage         = 'https://github.com/iamomkaar/cocoaIGODemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
    s.author           = { 'iamomkaar' => 'iamomkaar@gmail.com' }
